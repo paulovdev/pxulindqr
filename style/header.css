@@ -1,0 +1,38 @@
+/* HEADER */
+header {
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: #212121;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 600;
+    user-select: none;
+}
+
+header nav {
+    position: relative;
+    background: #212121;
+    padding: 30px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav ul,
+a {
+    position: relative;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    list-style: none;
+    gap: 2em;
+
+    display: flex;
+    align-items: center;
+}

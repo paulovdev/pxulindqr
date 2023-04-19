@@ -1,0 +1,86 @@
+/* SECTION PRINCIPAL*/
+section.principal {
+	position: relative;
+	width: 100%;
+	padding: 1.3rem;
+	inset: 0;
+	min-height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+
+}
+
+.card-field {
+	position: relative;
+	display: flex;
+
+}
+
+.left-card-main {
+	position: relative;
+	width: 100%;
+	margin-left: 10%;
+}
+
+.left-card-main h3 {
+	color: #F9F9F9;
+	font-size: 2.5em;
+}
+
+.left-card-main p {
+	color: #828282;
+	font-size: 1.1;
+	margin-top: 1.3rem;
+}
+
+.left-card-main .left-card-main-buttons {
+	position: relative;
+	margin-top: 2.5rem;
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.left-card-main .left-card-main-buttons button {
+	width: 150px;
+	height: 50px;
+	padding: 0 0.5rem 0 0.5rem;
+
+	background-color: transparent;
+	border: 1px solid #828282;
+	border-radius: 6px;
+	color: #fff;
+
+	outline: none;
+	font-weight: 600;
+
+	cursor: pointer;
+
+	transition: 0.2s;
+
+}
+
+.left-card-main .left-card-main-buttons button:hover {
+	background-color: #e84e43;
+	box-shadow: #e84e43 0px 2px 14px -8px;
+	color: #fff;
+	border: none;
+}
+
+
+.right-card-main {
+	position: relative;
+	inset: 0;
+	width: 50vw;
+	align-items: end;
+}
+
+.right-card-main img {
+	position: relative;
+	display: inline-flex;
+	width: 340px;
+
+}

@@ -1,0 +1,43 @@
+footer {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	bottom: 0;
+
+	color: #ffffff86;
+	background-color: #212121;
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+footer span {
+	color: #e84e4386;
+}
+
+#scrollbtn {
+	position: relative;
+
+	width: 50px;
+	height: 50px;
+	bottom: 0;
+	align-items: end;
+
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	background-color: #3f3f3f;
+	color: #fff;
+
+
+	outline: none;
+	cursor: pointer;
+	z-index: 999;
+}
+
+#scrollbtn:hover {
+	background-color: #e84e43;
+}

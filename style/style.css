@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	border: none;
+
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background: #171717;
+}
+
+#container {
+	position: relative;
+
+	margin: 0 auto;
+
+	top: 0;
+	left: 0;
+
+
+}
+
+/* MOUSE-SELECTION */
+::selection {
+	background-color: #3f3f3f;
+	color: #e84e43be;
+}
+
+/* SCROLL-BAR */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #1b1b1bb4;
+}
+
+/* WORD-ANIMATION */
+a::after {
+	position: absolute;
+	content: '';
+
+	background-color: #e84e43;
+
+	width: 100%;
+	height: 3px;
+	left: 0;
+	bottom: -5px;
+
+	transform-origin: right;
+	transform: scale(0);
+	transition: transform 0.5s;
+}
+
+a:hover::after {
+	transform-origin: left;
+	transform: scale(1);
+}
+
+
+.card-four-imgs:not(:hover) {
+	opacity: 0.8;
+}
+
+.card-four-imgs:hover {
+	opacity: 1;
+}
+
+.menu-toggle {
+	display: none;
+}
+
+.menu-drop {
+	color: #fff;
+	display: none;
+	z-index: 777;
+}
+
+.reveal {
+	position: relative;
+	transform: translateY(250px);
+	opacity: 0;
+	transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	transition: all 1s ease;
+}
+
+.reveal.active {
+	transform: translateY(0);
+	opacity: 1;
+}

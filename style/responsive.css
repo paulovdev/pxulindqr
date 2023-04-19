@@ -1,0 +1,306 @@
+@media (max-width:750px) {
+	header nav ul {
+		display: none;
+	}
+
+	.menu-toggle {
+		color: #fff;
+		cursor: pointer;
+		display: block;
+
+	}
+
+	.menu-drop {
+		background-color: #2121216e;
+		position: fixed;
+		height: 0px;
+		width: 100vw;
+
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		overflow: hidden;
+
+		transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	}
+
+	.menu-drop a {
+		padding: 1em;
+		margin-top: 1.875rem;
+		font-size: 20px;
+	}
+
+	.menu-drop.active {
+		position: relative;
+		height: 99vh;
+		width: 100vw;
+
+	}
+
+	/* SOCIALS */
+
+	.socials span {
+		position: relative;
+
+		margin: 1.563rem;
+		margin-top: 10em;
+		font-size: 1.5em;
+		cursor: pointer;
+	}
+
+	.socials span:hover {
+		transform: scale(1.05);
+		transition: transform 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	}
+
+
+	.right-card-main img {
+		display: none;
+	}
+
+	.card-icons-second {
+		position: relative;
+		margin-top: 7.5rem;
+
+		gap: 4em;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+	}
+
+	.cards-third {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2rem;
+		flex-wrap: wrap;
+	}
+
+
+	section .card-text-second {
+		position: relative;
+		width: 70%;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	section.third {
+		position: relative;
+
+		width: 100%;
+		min-height: 100vh;
+		margin: 4em auto;
+
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.div-cards-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 3em;
+	}
+
+
+	.card-four {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card-four-texts {
+		display: flex;
+		gap: 0.313rem;
+	}
+
+	.card-four-texts p {
+		font-size: 18px;
+	}
+
+
+}
+
+@media (max-width:600px) {
+	.left-card-main {
+		position: relative;
+		width: 100%;
+		margin-left: 10%;
+	}
+
+	.left-card-main h3 {
+		color: #F9F9F9;
+		font-size: 2.2em;
+	}
+
+	.left-card-main p {
+		color: #828282;
+		font-size: 18px;
+		margin-top: 0.938rem;
+	}
+
+	.left-card-main .left-card-main-buttons {
+		position: relative;
+		margin-top: 2.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2.5em;
+	}
+
+	.left-card-main .left-card-main-buttons button {
+		width: 130px;
+		height: 50px;
+		padding: 0 0.5rem 0 0.5rem;
+		justify-content: center;
+	}
+
+	.card-icons-second {
+		position: relative;
+		margin-top: 4.375rem;
+
+		gap: 1em;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.card-icons-second-wrapper h6 {
+		color: #F9F9F9;
+		margin-top: 1.2rem;
+		font-size: 16px;
+	}
+
+	.card-icons-second-wrapper p {
+		margin-top: 0.6rem;
+		color: #828282;
+	}
+
+	.card-icons-second-wrapper-img {
+		position: relative;
+		width: 50px;
+		height: 50px;
+	}
+
+	.card-icons-second-wrapper-img img {
+		position: relative;
+		width: 35px;
+		height: 35px;
+	}
+
+	.div-cards-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 1em;
+	}
+
+	section.third {
+		position: relative;
+
+		margin: 0;
+		width: 100%;
+		min-height: 100vh;
+
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		text-align: start;
+	}
+
+	.third h3 {
+		position: relative;
+		font-size: 2em;
+		padding: 1.2rem;
+		color: #F9F9F9;
+		margin-top: 6.25rem;
+		margin-bottom: 1.875rem;
+	}
+
+
+	.cards-third {
+		display: grid;
+		grid-template-columns: 1fr;
+
+		grid-gap: 2rem;
+
+		flex-wrap: wrap;
+	}
+
+	section .card-text-second {
+		position: relative;
+		width: 90%;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	.card-four {
+		width: 80%;
+		height: 150px;
+		padding: 1.2rem;
+		;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+
+		gap: 2em;
+		background-color: #212121;
+		border: 1px solid #383838;
+		border-bottom: 5px solid #e84e43;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card-four-texts {
+		display: flex;
+		gap: 0.313rem;
+	}
+
+	.card-four-texts p {
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width:380px) {
+	.left-card-main {
+		position: relative;
+		width: 100%;
+		margin-left: 10%;
+	}
+
+	.left-card-main .left-card-main-buttons {
+		position: relative;
+		margin-top: 2.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 3.5em;
+	}
+
+	.left-card-main .left-card-main-buttons button {
+		width: 100px;
+		height: 60px;
+		padding: 0 0.5rem 0 0.5rem;
+
+		background-color: transparent;
+		border: 1px solid #828282;
+		border-radius: 6px;
+		color: #fff;
+
+		outline: none;
+		font-weight: 600;
+
+		cursor: pointer;
+
+		transition: 0.2s;
+
+	}
+}

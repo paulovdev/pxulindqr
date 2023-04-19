@@ -1,0 +1,61 @@
+section.four {
+	position: relative;
+
+	width: 100%;
+	min-height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+
+}
+
+.four h3 {
+	position: relative;
+	font-size: 2em;
+	padding: 1.2rem;
+	color: #F9F9F9;
+}
+
+.four img {
+	width: 40px;
+}
+
+.cards-four {
+	display: flex;
+	gap: 2.3rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-four:hover {
+	transform: scale(1.01);
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.card-four {
+	width: 300px;
+	height: 200px;
+	padding: 20px;
+
+	align-items: start;
+	text-align: start;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	background-color: #212121;
+	border: 1px solid #383838;
+	border-bottom: 5px solid #e84e43;
+}
+
+.card-four p {
+	font-size: 24px;
+	color: #828282;
+	font-weight: 500;
+}
+
